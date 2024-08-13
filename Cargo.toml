@@ -1,6 +1,6 @@
 [workspace]
 resolver = "2"
-members = ["about"]
+members = ["about", "code_loader"]
 
 [workspace.dependencies]
 serde = { version = "1.0" }
