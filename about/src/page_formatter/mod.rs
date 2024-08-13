@@ -37,6 +37,6 @@ impl Default for FormatOptions {
 fn page_to_json(page: &Page) -> String {
     match serde_json::to_string(page) {
         Ok(json_string) => json_string,
-        Err(_) => todo!(),
+        Err(_) => todo!("https://github.com/stsh89/rubojector/issues/1"),
     }
 }
