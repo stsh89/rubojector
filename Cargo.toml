@@ -1,7 +1,8 @@
 [workspace]
 resolver = "2"
-members = ["about", "code_loader"]
+members = ["about", "code_loader", "newspaper"]
 
 [workspace.dependencies]
 serde = { version = "1.0" }
 serde_json = { version = "1.0" }
+newspaper = { path = "newspaper" }
